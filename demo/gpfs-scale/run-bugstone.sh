@@ -79,7 +79,7 @@ fi
 # overridden by an exported variable or BUGSTONE_ENV_FILE.
 KUBE_CONTEXT="${KUBE_CONTEXT:-agentic-cloud}"
 export KAGENTI_CLUSTER="${KAGENTI_CLUSTER:-external}"
-export KAGENTI_BASE="${KAGENTI_BASE:-https://serverless-harness.163-75-85-180.sslip.io}"
+export KAGENTI_BASE="${KAGENTI_BASE:-https://12c73248-ca-tor.lb.appdomain.cloud}"
 export KAGENTI_TLS_VERIFY="${KAGENTI_TLS_VERIFY:-1}"
 export KAGENTI_AUTH_HEADER="${KAGENTI_AUTH_HEADER:-x-sh-auth}"
 export KAGENTI_NS="${KAGENTI_NS:-serverless-harness}"

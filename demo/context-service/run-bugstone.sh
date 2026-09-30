@@ -14,7 +14,7 @@ case "$ACT" in
 esac
 
 KUBE_CONTEXT="${KUBE_CONTEXT:-agentic-cloud}"
-KAGENTI_BASE="${KAGENTI_BASE:-https://serverless-harness.163-75-85-180.sslip.io}"
+KAGENTI_BASE="${KAGENTI_BASE:-https://12c73248-ca-tor.lb.appdomain.cloud}"
 KAGENTI_AUTH_HEADER="${KAGENTI_AUTH_HEADER:-x-sh-auth}"
 if [ -z "${KAGENTI_AUTH_VALUE:-}" ]; then
   KAGENTI_AUTH_VALUE="$(kubectl --context "$KUBE_CONTEXT" -n kagenti-system get authorizationpolicy \
